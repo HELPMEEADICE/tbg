@@ -34,6 +34,23 @@ spriteTypes = {
 		texturefile = "gfx\interface\BGD\halo_full.png"
 	}
 
+	spriteType = {
+		name = "GFX_popy_command"
+		texturefile = "gfx\leaders\popy\popy.png"
+	}
+	spriteType = {
+		name = "GFX_rose_command"
+		texturefile = "gfx\leaders\popy\rose.png"
+	}
+	spriteType = {
+		name = "GFX_pastel_command"
+		texturefile = "gfx\leaders\popy\pastel.png"
+	}
+	spriteType = {
+		name = "GFX_halo_command"
+		texturefile = "gfx\leaders\popy\halo.png"
+	}
+
 
 	spriteType = {
 		name = "GFX_gui_popy_choice"

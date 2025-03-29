@@ -447,6 +447,16 @@ guiTypes = {
 				y = 200
 			}
 		}
+		buttonType = {
+			name = "popy_command_army"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 755
+				y = 200
+			}
+			font = "VCR02_26"
+			text = popy_c_army_text
+		}
 	}
 
 	#ROSE_GUI
@@ -527,6 +537,16 @@ guiTypes = {
 				x = 260
 				y = 200
 			}
+		}
+		buttonType = {
+			name = "rose_command_army"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 755
+				y = 200
+			}
+			font = "VCR02_26"
+			text = rose_c_army_text
 		}
 	}
 

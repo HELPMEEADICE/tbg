@@ -30,6 +30,13 @@ down_left_buttom: "购买 GPU"
 down_right_buttom: "扩展服务器集群"
 up_right_buttom: "高速总线连接"
 
+popy_c_army_text: "[popy_army_text]"
+rose_c_army_text: "[popy_army_text]"
+halo_c_army_text: "[popy_army_text]"
+pastel_c_army_text: "[popy_army_text]"
+command_army: "指挥军队"
+over_command_army: "已指挥军队"
+
 floats_pdx: "我就觉得快，有一种算到天荒地老的感觉"
 watts_pdx: "May the Force be with you.\n愿原力与你同在"
 wip_pdx: "你说你现在就想玩？等等吧孩子，想想NCC-1701-D是怎么炸的。"

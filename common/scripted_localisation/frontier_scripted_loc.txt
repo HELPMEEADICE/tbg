@@ -46,3 +46,55 @@ defined_text = {
 		localization_key = status_unavailable
 	}
 }
+
+
+
+
+defined_text = {
+	name = popy_army_text
+    text = {
+		trigger = {
+			has_country_flag = popy_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+defined_text = {
+	name = rose_army_text
+    text = {
+		trigger = {
+			has_country_flag = rose_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+defined_text = {
+	name = halo_army_text
+    text = {
+		trigger = {
+			has_country_flag = halo_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
+defined_text = {
+	name = halo_army_text
+    text = {
+		trigger = {
+			has_country_flag = halo_command_army
+		}
+		localization_key = over_command_army
+	}
+	text = {
+		localization_key = command_army
+	}
+}
