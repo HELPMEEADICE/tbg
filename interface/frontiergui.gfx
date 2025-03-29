@@ -76,6 +76,23 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_gui_frontier_popy_buttom"
+		textureFile = "gfx\interface\BGD\popy_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_rose_buttom"
+		textureFile = "gfx\interface\BGD\rose_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_halo_buttom"
+		textureFile = "gfx\interface\BGD\halo_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_pastel_buttom"
+		textureFile = "gfx\interface\BGD\pastel_buttom.png"
+	}
+
+	spriteType = {
 		name = "GFX_gui_frontier_wip"
 		texturefile = "gfx\interface\BGD\frontier_wip.png"
 	}

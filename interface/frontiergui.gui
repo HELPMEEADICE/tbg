@@ -11,8 +11,9 @@ guiTypes = {
 			name = "enter_frontier_button"
 			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_gui_frontier_icon"
-			buttonText = "测试"
+			#buttonText = "测试"
 			pdx_tooltip = "enter_fronter_text"
+			pdx_tooltip_delayed = "enter_fronter_text_tt"
 			clicksound = click_close
 			shortcut = "c"
 		}
@@ -124,7 +125,7 @@ guiTypes = {
 		#}
 		buttonType = {
 			name = "popy_buttom_available"
-			spriteType = "GFX_gui_frontier_a_buttom"
+			spriteType = "GFX_gui_frontier_popy_buttom"
 			position = {
 				x = 140
 				y = 400
@@ -151,7 +152,7 @@ guiTypes = {
 		#}
 		buttonType = {
 			name = "rose_buttom_available"
-			spriteType = "GFX_gui_frontier_a_buttom"
+			spriteType = "GFX_gui_frontier_rose_buttom"
 			position = {
 				x = 890
 				y = 400
@@ -178,7 +179,7 @@ guiTypes = {
 		#}
 		buttonType = {
 			name = "halo_buttom_available"
-			spriteType = "GFX_gui_frontier_a_buttom"
+			spriteType = "GFX_gui_frontier_halo_buttom"
 			position = {
 				x = 890
 				y = 700
@@ -205,7 +206,7 @@ guiTypes = {
 		#}
 		buttonType = {
 			name = "pastel_buttom_available"
-			spriteType = "GFX_gui_frontier_a_buttom"
+			spriteType = "GFX_gui_frontier_pastel_buttom"
 			position = {
 				x = 140
 				y = 700

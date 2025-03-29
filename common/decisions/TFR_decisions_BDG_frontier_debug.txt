@@ -1,0 +1,30 @@
+debug_decisions_BGD_frontier = {
+    BGD_change_frontier = {
+		icon = generic_industry
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = open_frontier_buttom }
+				}
+				set_country_flag = open_frontier_buttom
+			}
+			else = {
+				clr_country_flag = open_frontier_buttom
+			}
+		}
+	}
+}
