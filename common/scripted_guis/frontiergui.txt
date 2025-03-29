@@ -56,6 +56,8 @@ scripted_gui = {
 			}
 		}
 
+
+
 	}
 	frontier_popy_window = {
 		context_type = player_context

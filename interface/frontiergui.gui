@@ -91,8 +91,6 @@ guiTypes = {
 				y = 24
 			}
 		}
-		
-
 
 		iconType = {
 			name = "wip_image"
@@ -133,6 +131,24 @@ guiTypes = {
 				y = 440
 			}
 		}
+		instantTextBoxType = {
+			name = "popy_flops"
+			font = "VCR02_26"
+			text = popy_flops
+			position = {
+				x = 370
+				y = 400
+			}
+		}
+		instantTextBoxType = {
+			name = "popy_status"
+			font = "VCR02_26"
+			text = POPY_STATUS_TEXT_KEY
+			position = {
+				x = 370
+				y = 330
+			}
+		}
 
 		#ROSE
 		iconType = {
@@ -160,6 +176,24 @@ guiTypes = {
 			position = {
 				x = 910
 				y = 440
+			}
+		}
+		instantTextBoxType = {
+			name = "rose_flops"
+			font = "VCR02_26"
+			text = rose_flops
+			position = {
+				x = 890
+				y = 400
+			}
+		}
+		instantTextBoxType = {
+			name = "rose_status"
+			font = "VCR02_26"
+			text = ROSE_STATUS_TEXT_KEY
+			position = {
+				x = 890
+				y = 330
 			}
 		}
 
@@ -191,6 +225,24 @@ guiTypes = {
 				y = 740
 			}
 		}
+		instantTextBoxType = {
+			name = "halo_flops"
+			font = "VCR02_26"
+			text = halo_flops
+			position = {
+				x = 890
+				y = 700
+			}
+		}
+		instantTextBoxType = {
+			name = "halo_status"
+			font = "VCR02_26"
+			text = HALO_STATUS_TEXT_KEY
+			position = {
+				x = 890
+				y = 630
+			}
+		}
 
 		#PASTEL
 		iconType = {
@@ -200,7 +252,7 @@ guiTypes = {
 				x = 95
 				y = 540
 			}
-			scale = 0.98
+			scale = 0.98 
 		}
 		#buttonType = {
 		#	name = "pastel_buttom_unavailable"
@@ -218,6 +270,24 @@ guiTypes = {
 			position = {
 				x = 390
 				y = 740
+			}
+		}
+		instantTextBoxType = {
+			name = "pastel_flops"
+			font = "VCR02_26"
+			text = pastel_flops
+			position = {
+				x = 370
+				y = 700
+			}
+		}
+		instantTextBoxType = {
+			name = "pastel_status"
+			font = "VCR02_26"
+			text = PASTEL_STATUS_TEXT_KEY
+			position = {
+				x = 370
+				y = 630
 			}
 		}
 	}

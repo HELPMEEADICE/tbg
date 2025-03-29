@@ -1,0 +1,48 @@
+defined_text = {
+	name = popy_status_text
+    text = {
+		trigger = {
+			has_country_flag = popy_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = rose_status_text
+    text = {
+		trigger = {
+			has_country_flag = rose_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = halo_status_text
+    text = {
+		trigger = {
+			has_country_flag = halo_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
+defined_text = {
+	name = pastel_status_text
+    text = {
+		trigger = {
+			has_country_flag = pastel_available
+		}
+		localization_key = status_available
+	}
+	text = {
+		localization_key = status_unavailable
+	}
+}
