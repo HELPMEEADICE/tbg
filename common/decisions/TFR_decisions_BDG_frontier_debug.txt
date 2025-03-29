@@ -50,10 +50,10 @@ debug_decisions_BGD_frontier = {
 			base = 0
 		}
 		complete_effect = {
-			set_variable = { popy_flops = 1145.14}
-			set_variable = { rose_flops = 1145.14}
-			set_variable = { halo_flops = 1145.14}
-			set_variable = { pastel_flops = 1145.14 }
+			add_to_variable = { popy_flops = 1145.14}
+			add_to_variable = { rose_flops = 1145.14}
+			add_to_variable = { halo_flops = 1145.14}
+			add_to_variable = { pastel_flops = 1145.14 }
 		}
 	}
 
@@ -180,4 +180,28 @@ debug_decisions_BGD_frontier = {
 		}
 	}
 
-}
+	BGD_frontier_adv_halo = {
+		icon = generic_industry
+		name = BGD_frontier_adv_halo
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		allowed = {
+			tag = BGD
+		}
+		visible = {
+		}
+		available = {
+			tag = BGD
+		}
+		ai_will_do = {
+			base = 0
+		}
+		complete_effect = {
+
+			
+
+		}
+			
+		}
+	}

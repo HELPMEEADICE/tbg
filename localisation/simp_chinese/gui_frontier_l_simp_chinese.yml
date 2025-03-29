@@ -17,6 +17,14 @@ ROSE_STATUS_TEXT_KEY: "[rose_status_text]"
 HALO_STATUS_TEXT_KEY: "[halo_status_text]"
 PASTEL_STATUS_TEXT_KEY: "[pastel_status_text]"
 
+total_flops_text: "[?total_flops|Y] PFLOPS"
+total_watt_text: "[?total_watt|Y] MW"
+
+popy_watt_text: "[?popy_watt|Y] MW"
+rose_watt_text: "[?rose_watt|Y] MW"
+halo_watt_text: "[?halo_watt|Y] MW"
+pastel_watt_text: "[?pastel_watt|Y] MW"
+
 #DEBUG
 BGD_frontier_adv_popy: "设定POPY训练状态"
 BGD_frontier_adv_rose: "设定ROSE训练状态"
