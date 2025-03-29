@@ -8,7 +8,7 @@ character = {
 			}
 		}
 
-		field_marshal = {
+		corps_commander = {
 			#traits = { trait_Bang_PoPiPa_loyalties_1 Band_Shojo_Growing_Up }
 			skill = 5
 			attack_skill = 4
