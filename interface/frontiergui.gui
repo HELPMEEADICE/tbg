@@ -127,8 +127,8 @@ guiTypes = {
 			name = "popy_buttom_available"
 			spriteType = "GFX_gui_frontier_popy_buttom"
 			position = {
-				x = 140
-				y = 400
+				x = 390
+				y = 440
 			}
 		}
 
@@ -154,8 +154,8 @@ guiTypes = {
 			name = "rose_buttom_available"
 			spriteType = "GFX_gui_frontier_rose_buttom"
 			position = {
-				x = 890
-				y = 400
+				x = 910
+				y = 440
 			}
 		}
 
@@ -181,8 +181,8 @@ guiTypes = {
 			name = "halo_buttom_available"
 			spriteType = "GFX_gui_frontier_halo_buttom"
 			position = {
-				x = 890
-				y = 700
+				x = 910
+				y = 740
 			}
 		}
 
@@ -208,8 +208,8 @@ guiTypes = {
 			name = "pastel_buttom_available"
 			spriteType = "GFX_gui_frontier_pastel_buttom"
 			position = {
-				x = 140
-				y = 700
+				x = 390
+				y = 740
 			}
 		}
 	}
