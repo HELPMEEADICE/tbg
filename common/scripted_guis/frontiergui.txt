@@ -1,0 +1,127 @@
+scripted_gui = {
+	enter_frontier_button = {
+		window_name = frontier_button_window
+		context_type = player_context
+		visible = {
+			tag = BGD
+		}
+		effects = {
+			enter_frontier_button_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = open_frontier_main_window }
+					}
+					set_country_flag = open_frontier_main_window
+					#clr_country_flag = open_frontier_popy_window
+				}
+				else = {
+					clr_country_flag = open_frontier_main_window
+					clr_country_flag = open_frontier_popy_window
+					clr_country_flag = open_frontier_rose_window
+					clr_country_flag = open_frontier_halo_window
+					clr_country_flag = open_frontier_past_window
+				}
+			}
+		}
+	}
+
+	frontier_main_window = {
+		context_type = player_context
+
+		window_name = "frontier_main_window"
+
+		visible = {
+			has_country_flag = open_frontier_main_window
+		}
+
+		effects = {
+			close_buttom_click = {
+				clr_country_flag = open_frontier_main_window
+			}
+			popy_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				set_country_flag = open_frontier_popy_window
+			}
+			rose_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				set_country_flag = open_frontier_rose_window
+			}
+			halo_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				set_country_flag = open_frontier_halo_window
+			}
+			pastel_buttom_available_click = {
+				#clr_country_flag = open_frontier_main_window
+				set_country_flag = open_frontier_past_window
+			}
+		}
+
+	}
+	frontier_popy_window = {
+		context_type = player_context
+
+		window_name = "frontier_popy_window"
+
+		visible = {
+			has_country_flag = open_frontier_popy_window
+		}
+
+		effects = {
+			close_buttom_popy_click = {
+				clr_country_flag = open_frontier_popy_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+
+	frontier_rose_window = {
+		context_type = player_context
+
+		window_name = "frontier_rose_window"
+
+		visible = {
+			has_country_flag = open_frontier_rose_window
+		}
+
+		effects = {
+			close_buttom_rose_click = {
+				clr_country_flag = open_frontier_rose_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+
+	frontier_halo_window = {
+		context_type = player_context
+
+		window_name = "frontier_halo_window"
+
+		visible = {
+			has_country_flag = open_frontier_halo_window
+		}
+
+		effects = {
+			close_buttom_halo_click = {
+				clr_country_flag = open_frontier_halo_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+
+	frontier_pastel_window = {
+		context_type = player_context
+	
+		window_name = "frontier_past_window"
+	
+		visible = {
+			has_country_flag = open_frontier_past_window
+		}
+	
+		effects = {
+			close_buttom_pastel_click = {
+				clr_country_flag = open_frontier_past_window
+				set_country_flag = open_frontier_main_window
+			}
+		}
+	}
+}

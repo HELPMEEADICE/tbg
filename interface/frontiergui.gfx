@@ -1,0 +1,82 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_gui_frontier_background"
+		texturefile = "gfx\interface\BGD\frontier_background.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_icon"
+		texturefile = "gfx\interface\BGD\frontier_icon.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_close_buttom"
+		texturefile = "gfx\interface\BGD\frontier_close_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_text_title"
+		texturefile = "gfx\interface\BGD\frontier_text_title.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_gui_popy_full"
+		texturefile = "gfx\interface\BGD\popy_full.png"
+	}
+	spriteType = {
+		name = "GFX_gui_rose_full"
+		texturefile = "gfx\interface\BGD\rose_full.png"
+	}
+	spriteType = {
+		name = "GFX_gui_pastel_full"
+		texturefile = "gfx\interface\BGD\pastel_full.png"
+	}
+	spriteType = {
+		name = "GFX_gui_halo_full"
+		texturefile = "gfx\interface\BGD\halo_full.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_gui_popy_choice"
+		texturefile = "gfx\interface\BGD\popy_choice.png"
+	}
+	spriteType = {
+		name = "GFX_gui_rose_choice"
+		texturefile = "gfx\interface\BGD\rose_choice.png"
+	}
+	spriteType = {
+		name = "GFX_gui_halo_choice"
+		texturefile = "gfx\interface\BGD\halo_choice.png"
+	}
+	spriteType = {
+		name = "GFX_gui_pastel_choice"
+		texturefile = "gfx\interface\BGD\pastel_choice.png"
+	}
+
+	spriteType = {
+		name = "GFX_gui_popy_logo"
+		texturefile = "gfx\interface\BGD\popy_logo.png"
+	}
+	spriteType = {
+		name = "GFX_gui_rose_logo"
+		texturefile = "gfx\interface\BGD\rose_logo.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_gui_frontier_u_buttom"
+		texturefile = "gfx\interface\BGD\frontier_unavailable_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_p_buttom"
+		texturefile = "gfx\interface\BGD\frontier_partially_available_buttom.png"
+	}
+	spriteType = {
+		name = "GFX_gui_frontier_a_buttom"
+		texturefile = "gfx\interface\BGD\frontier_available_buttom.png"
+	}
+
+	spriteType = {
+		name = "GFX_gui_frontier_wip"
+		texturefile = "gfx\interface\BGD\frontier_wip.png"
+	}
+}

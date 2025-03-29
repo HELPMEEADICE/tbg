@@ -1,0 +1,464 @@
+guiTypes = {
+	#启动按钮
+	containerWindowType = {
+		name = "frontier_button_window"
+		position = {
+			x = 1840
+			y = 630
+		}
+
+		buttonType = {
+			name = "enter_frontier_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_gui_frontier_icon"
+			buttonText = "测试"
+			pdx_tooltip = "enter_fronter_text"
+			clicksound = click_close
+			shortcut = "c"
+		}
+	}
+
+	#主界面
+	containerWindowType = {
+		name = "frontier_main_window"
+		show_position = {
+			x = 683
+			y = 106
+		}
+		hide_position = {
+			x = 1920
+			y = 106
+		}
+		animation_type = decelerated
+		animation_time = 360
+		size = {
+			width = 1144
+			height = 858
+		}
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_gui_frontier_background"
+		}
+
+		#关闭按钮
+		buttonType = {
+			name = "close_buttom"
+			spriteType = "GFX_gui_frontier_close_buttom"
+			position = {
+				x = 16
+				y = 690
+			}
+			shortcut = "ESCAPE"
+
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "frontier_wip"
+			position = {
+				x = 100
+				y = 210
+			}
+			font = "VCR02_26"
+			text = frontier_wip
+			maxWidth = 190
+			maxHeight = 30
+			format = left
+		}
+
+		#主界面标题 - 使用文字
+		#instantTextboxType = {
+		#	name = "frontier_gui_title"
+		#	position = {
+		#		x = 100
+		#		y = 24
+		#	}
+		#	font = "VCR02_26"
+		#	text = "次世代计算设施 - x86-64架构 - GPU混合模式"
+		#	maxWidth = 490
+		#	maxHeight = 30
+		#	format = left
+		#}
+
+		#主界面标题 - 使用图片
+		iconType = {
+			name = "text_title"
+			spriteType = "GFX_gui_frontier_text_title"
+			position = {
+				x = 95
+				y = 24
+			}
+		}
+		
+
+
+		iconType = {
+			name = "wip_image"
+			spriteType = "GFX_gui_frontier_wip"
+			position = {
+				x = 86
+				y = 80
+			}
+			scale = 1.097
+
+		}
+
+		#POPY
+		iconType = {
+			name = "popy_choice"
+			spriteType = "GFX_gui_popy_choice"
+			position = {
+				x = 95
+				y = 240
+			}
+			scale = 0.98
+		}
+		#buttonType = {
+		#	name = "popy_buttom_unavailable"
+		#	spriteType = "GFX_gui_frontier_u_buttom"
+		#	position = {
+		#		x = 140
+		#		y = 400
+		#	}
+		#}
+		buttonType = {
+			name = "popy_buttom_available"
+			spriteType = "GFX_gui_frontier_a_buttom"
+			position = {
+				x = 140
+				y = 400
+			}
+		}
+
+		#ROSE
+		iconType = {
+			name = "rose_choice"
+			spriteType = "GFX_gui_rose_choice"
+			position = {
+				x = 610
+				y = 240
+			}
+			scale = 0.98
+		}
+		#buttonType = {
+		#	name = "rose_buttom_unavailable"
+		#	spriteType = "GFX_gui_frontier_u_buttom"
+		#	position = {
+		#		x = 140
+		#		y = 400
+		#	}
+		#}
+		buttonType = {
+			name = "rose_buttom_available"
+			spriteType = "GFX_gui_frontier_a_buttom"
+			position = {
+				x = 890
+				y = 400
+			}
+		}
+
+		#HALO
+		iconType = {
+			name = "halo_choice"
+			spriteType = "GFX_gui_halo_choice"
+			position = {
+				x = 610
+				y = 540
+			}
+			scale = 0.98
+		}
+		#buttonType = {
+		#	name = "halo_buttom_unavailable"
+		#	spriteType = "GFX_gui_frontier_u_buttom"
+		#	position = {
+		#		x = 140
+		#		y = 400
+		#	}
+		#}
+		buttonType = {
+			name = "halo_buttom_available"
+			spriteType = "GFX_gui_frontier_a_buttom"
+			position = {
+				x = 890
+				y = 700
+			}
+		}
+
+		#PASTEL
+		iconType = {
+			name = "pastel_choice"
+			spriteType = "GFX_gui_pastel_choice"
+			position = {
+				x = 95
+				y = 540
+			}
+			scale = 0.98
+		}
+		#buttonType = {
+		#	name = "pastel_buttom_unavailable"
+		#	spriteType = "GFX_gui_frontier_u_buttom"
+		#	position = {
+		#		x = 140
+		#		y = 400
+		#	}
+		#}
+		buttonType = {
+			name = "pastel_buttom_available"
+			spriteType = "GFX_gui_frontier_a_buttom"
+			position = {
+				x = 140
+				y = 700
+			}
+		}
+	}
+
+
+	#POPY_GUI
+	containerWindowType = {
+		name = "frontier_popy_window"
+		position = {
+			x = 683
+			y = 106
+		}
+		size = {
+			width = 1144
+			height = 858
+		}
+		background = {
+			name = "Background_popy"
+			quadTextureSprite = "GFX_gui_frontier_background"
+		}
+
+		#关闭按钮
+		buttonType = {
+			name = "close_buttom_popy"
+			spriteType = "GFX_gui_frontier_close_buttom"
+			position = {
+				x = 16
+				y = 690
+			}
+			shortcut = "ESCAPE"
+
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "frontier_wip_popy"
+			position = {
+				x = 100
+				y = 810
+			}
+			font = "VCR02_26"
+			text = frontier_wip
+			maxWidth = 490
+			maxHeight = 30
+			format = left
+		}
+		iconType = {
+			name = "popy_full"
+			spriteType = "GFX_gui_popy_full"
+			position = {
+				x = 570
+				y = 130
+			}
+			scale = 0.19
+		}
+		iconType = {
+			name = "popy_logo"
+			spriteType = "GFX_gui_popy_logo"
+			position = {
+				x = 690
+				y = 20
+			}
+			scale = 0.8
+		}
+	}
+
+	#ROSE_GUI
+	containerWindowType = {
+		name = "frontier_rose_window"
+		position = {
+			x = 683
+			y = 106
+		}
+		size = {
+			width = 1144
+			height = 858
+		}
+		background = {
+			name = "Background_rose"
+			quadTextureSprite = "GFX_gui_frontier_background"
+		}
+
+		#关闭按钮
+		buttonType = {
+			name = "close_buttom_rose"
+			spriteType = "GFX_gui_frontier_close_buttom"
+			position = {
+				x = 16
+				y = 690
+			}
+			shortcut = "ESCAPE"
+
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "frontier_wip_rose"
+			position = {
+				x = 100
+				y = 810
+			}
+			font = "VCR02_26"
+			text = frontier_wip
+			maxWidth = 490
+			maxHeight = 30
+			format = left
+		}
+		iconType = {
+			name = "rose_full"
+			spriteType = "GFX_gui_rose_full"
+			position = {
+				x = 570
+				y = 170
+			}
+			scale = 0.109
+		}
+		iconType = {
+			name = "rose_logo"
+			spriteType = "GFX_gui_rose_logo"
+			position = {
+				x = 690
+				y = 20
+			}
+			scale = 0.8
+		}
+	}
+
+	#HALO_GUI
+	containerWindowType = {
+		name = "frontier_halo_window"
+		position = {
+			x = 683
+			y = 106
+		}
+		size = {
+			width = 1144
+			height = 858
+		}
+		background = {
+			name = "Background_halo"
+			quadTextureSprite = "GFX_gui_frontier_background"
+		}
+
+		#关闭按钮
+		buttonType = {
+			name = "close_buttom_halo"
+			spriteType = "GFX_gui_frontier_close_buttom"
+			position = {
+				x = 16
+				y = 690
+			}
+			shortcut = "ESCAPE"
+
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "frontier_wip_halo"
+			position = {
+				x = 100
+				y = 810
+			}
+			font = "VCR02_26"
+			text = frontier_wip
+			maxWidth = 490
+			maxHeight = 30
+			format = left
+		}
+		iconType = {
+			name = "halo_full"
+			spriteType = "GFX_gui_halo_full"
+			position = {
+				x = 600
+				y = 170
+			}
+			scale = 0.55
+		}
+		#iconType = {
+		#	name = "halo_logo"
+		#	spriteType = "GFX_gui_halo_logo"
+		#	position = {
+		#		x = 690
+		#		y = 20
+		#	}
+		#	scale = 0.8
+		#}
+	}
+
+	#pastel_GUI
+	containerWindowType = {
+		name = "frontier_past_window"
+		position = {
+			x = 683
+			y = 106
+		}
+		size = {
+			width = 1144
+			height = 858
+		}
+		background = {
+			name = "Background_pastel"
+			quadTextureSprite = "GFX_gui_frontier_background"
+		}
+	
+		#关闭按钮
+		buttonType = {
+			name = "close_buttom_pastel"
+			spriteType = "GFX_gui_frontier_close_buttom"
+			position = {
+				x = 16
+				y = 690
+			}
+			shortcut = "ESCAPE"
+	
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	
+		instantTextboxType = {
+			name = "frontier_wip_pastel"
+			position = {
+				x = 100
+				y = 810
+			}
+			font = "VCR02_26"
+			text = frontier_wip
+			maxWidth = 490
+			maxHeight = 30
+			format = left
+		}
+		iconType = {
+			name = "pastel_full"
+			spriteType = "GFX_gui_pastel_full"
+			position = {
+				x = 600
+				y = 170
+			}
+			scale = 0.55
+		}
+		#iconType = {
+		#	name = "pastel_logo"
+		#	spriteType = "GFX_gui_pastel_logo"
+		#	position = {
+		#		x = 690
+		#		y = 20
+		#	}
+		#	scale = 0.8
+		#}
+	}
+}
