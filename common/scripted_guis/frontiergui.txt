@@ -68,7 +68,7 @@ scripted_gui = {
 					}
 				}
 				else = {
-					set_country_flag = halo_frontier_popy_window
+					set_country_flag = open_frontier_halo_window
 				}
 			}
 			pastel_buttom_available_click = {
@@ -79,7 +79,7 @@ scripted_gui = {
 					}
 				}
 				else = {
-					set_country_flag = open_frontier_pastel_window
+					set_country_flag = open_frontier_past_window
 				}
 			}
 		}
