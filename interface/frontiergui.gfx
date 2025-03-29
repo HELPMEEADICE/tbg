@@ -93,6 +93,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_gui_main_window_buttom"
+		textureFile = "gfx\interface\BGD\main_window_buttom.png"
+	}
+
+	spriteType = {
 		name = "GFX_gui_frontier_wip"
 		texturefile = "gfx\interface\BGD\frontier_wip.png"
 	}

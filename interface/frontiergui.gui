@@ -94,6 +94,48 @@ guiTypes = {
 			pdx_tooltip = "watts_pdx"
 		}
 
+
+		#右侧四个按钮
+		buttonType = {
+			name = "up_left_buttom"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 660
+				y = 70
+			}
+			font = "VCR02_26"
+			text = up_left_buttom
+		}
+		buttonType = {
+			name = "down_left_buttom"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 850
+				y = 70
+			}
+			font = "VCR02_26"
+			text = down_left_buttom
+		}
+		buttonType = {
+			name = "down_right_buttom"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 660
+				y = 200
+			}
+			font = "VCR02_26"
+			text = down_right_buttom
+		}
+		buttonType = {
+			name = "up_right_buttom"
+			spriteType = "GFX_gui_main_window_buttom"
+			position = {
+				x = 850
+				y = 200
+			}
+			font = "VCR02_26"
+			text = up_right_buttom
+		}
 		#主界面标题 - 使用文字
 		#instantTextboxType = {
 		#	name = "frontier_gui_title"
