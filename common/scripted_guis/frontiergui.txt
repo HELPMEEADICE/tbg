@@ -109,26 +109,14 @@ scripted_gui = {
 						NOT = { has_country_flag = popy_command_army}
 					}
 					set_country_flag = popy_command_army
-					add_political_power = -100
-
-					generate_character = {
-						token_base = POPY
+					create_corps_commander = {
 						name = POPY
-						gender = female
-						portraits = {
-							army = {
-								large = GFX_popy_command
-							}
-						}
-						corps_commander = {
-							#traits = { trait_Bang_PoPiPa_loyalties_1 Band_Shojo_Growing_Up }
-							skill = 5
-							attack_skill = 4
-							defense_skill = 4
-							planning_skill = 4
-							logistics_skill = 4
-							visible = {is_ai=no}
-						}
+						gfx = GFX_popy_command
+						skill = 5
+						attack_skill = 6
+						defense_skill = 4
+						planning_skill = 4
+						logistics_skill = 4
 					}
 				}
 			}
@@ -150,34 +138,21 @@ scripted_gui = {
 				set_country_flag = open_frontier_main_window
 			}
 
-
-
 			rose_command_army_click = {
 				if = {
 					limit = {
 						NOT = { has_country_flag = rose_command_army}
 					}
 					set_country_flag = rose_command_army
-					add_political_power = -100
-			
-					generate_character = {
-						token_base = ROSE
+					create_field_marshal = {
 						name = ROSE
-						gender = female
-						portraits = {
-							army = {
-								large = GFX_rose_command
-							}
-						}
-						field_marshal = {
-							#traits = { trait_Bang_PoPiPa_loyalties_1 Band_Shojo_Growing_Up }
-							skill = 10
-							attack_skill = 10
-							defense_skill = 10
-							planning_skill = 10
-							logistics_skill = 10
-							visible = {is_ai=no}
-						}
+						gfx = GFX_rose_command
+
+						skill = 9
+						attack_skill = 10
+						defense_skill = 10
+						planning_skill = 10
+						logistics_skill = 10
 					}
 				}
 			}
