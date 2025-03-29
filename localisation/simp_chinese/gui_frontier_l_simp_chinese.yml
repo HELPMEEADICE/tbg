@@ -25,6 +25,15 @@ rose_watt_text: "[?rose_watt|Y] MW"
 halo_watt_text: "[?halo_watt|Y] MW"
 pastel_watt_text: "[?pastel_watt|Y] MW"
 
+floats_pdx: "我就觉得快，有一种算到天荒地老的感觉"
+watts_pdx: "May the Force be with you.\n愿原力与你同在"
+wip_pdx: "你说你现在就想玩？等等吧孩子，想想NCC-1701-D是怎么炸的。"
+
+popy_pdx: "总有一种错觉让你觉得Object继承自MonoBehaviour"
+rose_pdx: "没有类型检查，你的代码简直就是一坨屎！"
+pastel_pdx: "每次运行你的垃圾，南极温度都要上升0.1°C"
+halo_pdx: "你好,陌生人,欢迎来到地球！这里我们说英语！"
+
 #DEBUG
 BGD_frontier_adv_popy: "设定POPY训练状态"
 BGD_frontier_adv_rose: "设定ROSE训练状态"

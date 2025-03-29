@@ -66,6 +66,7 @@ guiTypes = {
 			maxWidth = 190
 			maxHeight = 30
 			format = left
+			pdx_tooltip = "wip_pdx"
 		}
 
 		instantTextBoxType = {
@@ -76,6 +77,9 @@ guiTypes = {
 				x = 260
 				y = 105
 			}
+			maxWidth = 200
+			maxHeight = 30
+			pdx_tooltip = "floats_pdx"
 		}
 		instantTextBoxType = {
 			name = "total_watt"
@@ -85,6 +89,9 @@ guiTypes = {
 				x = 260
 				y = 200
 			}
+			maxWidth = 160
+			maxHeight = 30
+			pdx_tooltip = "watts_pdx"
 		}
 
 		#主界面标题 - 使用文字
@@ -131,6 +138,7 @@ guiTypes = {
 				y = 335
 			}
 			scale = 0.94
+			pdx_tooltip = "popy_pdx"
 		}
 		#buttonType = {
 		#	name = "popy_buttom_unavailable"
@@ -179,6 +187,7 @@ guiTypes = {
 				y = 335
 			}
 			scale = 0.94
+			pdx_tooltip = "rose_pdx"
 		}
 		#buttonType = {
 		#	name = "rose_buttom_unavailable"
@@ -227,6 +236,7 @@ guiTypes = {
 				y = 620
 			}
 			scale = 0.94
+			pdx_tooltip = "halo_pdx"
 		}
 		#buttonType = {
 		#	name = "halo_buttom_unavailable"
@@ -275,6 +285,7 @@ guiTypes = {
 				y = 620
 			}
 			scale = 0.94
+			pdx_tooltip = "pastel_pdx"
 		}
 		#buttonType = {
 		#	name = "pastel_buttom_unavailable"

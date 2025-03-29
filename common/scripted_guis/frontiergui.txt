@@ -40,19 +40,47 @@ scripted_gui = {
 			}
 			popy_buttom_available_click = {
 				#clr_country_flag = open_frontier_main_window
-				set_country_flag = open_frontier_popy_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = popy_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_popy_window
+				}
 			}
 			rose_buttom_available_click = {
 				#clr_country_flag = open_frontier_main_window
-				set_country_flag = open_frontier_rose_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = rose_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_rose_window
+				}
 			}
 			halo_buttom_available_click = {
 				#clr_country_flag = open_frontier_main_window
-				set_country_flag = open_frontier_halo_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = halo_available }
+					}
+				}
+				else = {
+					set_country_flag = halo_frontier_popy_window
+				}
 			}
 			pastel_buttom_available_click = {
 				#clr_country_flag = open_frontier_main_window
-				set_country_flag = open_frontier_past_window
+				if = {
+					limit = {
+						NOT = { has_country_flag = pastel_available }
+					}
+				}
+				else = {
+					set_country_flag = open_frontier_pastel_window
+				}
 			}
 		}
 
