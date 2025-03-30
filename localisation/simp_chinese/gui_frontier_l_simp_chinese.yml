@@ -66,6 +66,6 @@ BGD_frontier_adv_popy: "设定POPY训练状态"
 BGD_frontier_adv_rose: "设定ROSE训练状态"
 BGD_frontier_adv_halo: "设定HALO训练状态"
 BGD_frontier_adv_pastel: "设定PASTEL训练状态"
-
+debug_decisions_BGD_frontier: "“前沿”调试决议"
 BGD_change_frontier: "设定“前沿”计划"
 BGD_frontier_initialization: "调高算力占用（测试用）"
