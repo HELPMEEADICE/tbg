@@ -71,25 +71,25 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "total_flops"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = total_flops_text
 			position = {
-				x = 260
+				x = 240
 				y = 105
 			}
-			maxWidth = 200
+			maxWidth = 350
 			maxHeight = 30
 			pdx_tooltip = "floats_pdx"
 		}
 		instantTextBoxType = {
 			name = "total_watt"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = total_watt_text
 			position = {
-				x = 260
+				x = 240
 				y = 200
 			}
-			maxWidth = 160
+			maxWidth = 350
 			maxHeight = 30
 			pdx_tooltip = "watts_pdx"
 		}
@@ -202,19 +202,20 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "popy_flops"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = popy_flops
 			position = {
-				x = 370
+				x = 350
 				y = 490
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "popy_status"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = POPY_STATUS_TEXT_KEY
 			position = {
-				x = 370
+				x = 350
 				y = 420
 			}
 		}
@@ -251,19 +252,20 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "rose_flops"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = rose_flops
 			position = {
-				x = 870
+				x = 850
 				y = 490
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "rose_status"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = ROSE_STATUS_TEXT_KEY
 			position = {
-				x = 870
+				x = 850
 				y = 420
 			}
 		}
@@ -300,19 +302,20 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "halo_flops"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = halo_flops
 			position = {
-				x = 870
+				x = 850
 				y = 770
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "halo_status"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = HALO_STATUS_TEXT_KEY
 			position = {
-				x = 870
+				x = 850
 				y = 710
 			}
 		}
@@ -349,19 +352,20 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "pastel_flops"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = pastel_flops
 			position = {
-				x = 370
+				x = 350
 				y = 770
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "pastel_status"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = PASTEL_STATUS_TEXT_KEY
 			position = {
-				x = 370
+				x = 350
 				y = 710
 			}
 		}
@@ -431,21 +435,23 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "popy_flops_next"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = popy_flops
 			position = {
-				x = 260
+				x = 240
 				y = 105
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "popy_watt"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = popy_watt_text
 			position = {
-				x = 260
+				x = 240
 				y = 200
 			}
+			maxWidth = 350
 		}
 		buttonType = {
 			name = "popy_command_army"
@@ -523,21 +529,23 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "rose_flops_next"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = rose_flops
 			position = {
-				x = 260
+				x = 240
 				y = 105
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "rose_watt"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = rose_watt_text
 			position = {
-				x = 260
+				x = 240
 				y = 200
 			}
+			maxWidth = 350
 		}
 		buttonType = {
 			name = "rose_command_army"
@@ -615,21 +623,23 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "halo_flops_next"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = halo_flops
 			position = {
-				x = 260
+				x = 240
 				y = 105
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "halo_watt"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = halo_watt_text
 			position = {
-				x = 260
+				x = 240
 				y = 200
 			}
+			maxWidth = 350
 		}
 	}
 
@@ -696,21 +706,23 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "pastel_flops_next"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = pastel_flops
 			position = {
-				x = 260
+				x = 240
 				y = 105
 			}
+			maxWidth = 350
 		}
 		instantTextBoxType = {
 			name = "pastel_watt"
-			font = "VCR02_26"
+			font = "VCR02_36"
 			text = pastel_watt_text
 			position = {
-				x = 260
+				x = 240
 				y = 200
 			}
+			maxWidth = 350
 		}
 	}
 }
