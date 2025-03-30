@@ -1,6 +1,21 @@
 on_actions = {
     on_daily_BGD = {
         effect = {
+			set_variable_to_random = {
+				var = small_random
+				max = 100
+				min = 50
+				integer = no
+			}
+			set_variable_to_random = {
+				var = large_random
+				max = 500
+				min = 200
+				integer = no
+			}
+
+
+
 			set_variable = {
 				var = total_flops  # 这是你用来保存总和的变量名
 				value = 0

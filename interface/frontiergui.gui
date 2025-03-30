@@ -107,7 +107,7 @@ guiTypes = {
 			text = up_left_buttom
 		}
 		buttonType = {
-			name = "down_left_buttom"
+			name = "up_right_buttom"
 			spriteType = "GFX_gui_main_window_buttom"
 			position = {
 				x = 850
@@ -127,7 +127,7 @@ guiTypes = {
 			text = down_right_buttom
 		}
 		buttonType = {
-			name = "up_right_buttom"
+			name = "down_left_buttom"
 			spriteType = "GFX_gui_main_window_buttom"
 			position = {
 				x = 850
@@ -193,7 +193,7 @@ guiTypes = {
 		buttonType = {
 			name = "popy_buttom_available"
 			spriteType = "GFX_gui_frontier_popy_buttom"
-			buttonText = "进入控制面板"
+			buttonText = "popy_status_buttom"
 			font = "VCR02_26"
 			position = {
 				x = 355
@@ -242,7 +242,7 @@ guiTypes = {
 		buttonType = {
 			name = "rose_buttom_available"
 			spriteType = "GFX_gui_frontier_rose_buttom"
-			buttonText = "进入控制面板"
+			buttonText = "rose_status_buttom"
 			font = "VCR02_26"
 			position = {
 				x = 850
@@ -291,7 +291,7 @@ guiTypes = {
 		buttonType = {
 			name = "halo_buttom_available"
 			spriteType = "GFX_gui_frontier_halo_buttom"
-			buttonText = "进入控制面板"
+			buttonText = "halo_status_buttom"
 			font = "VCR02_26"
 			position = {
 				x = 850
@@ -340,7 +340,7 @@ guiTypes = {
 		buttonType = {
 			name = "pastel_buttom_available"
 			spriteType = "GFX_gui_frontier_pastel_buttom"
-			buttonText = "进入控制面板"
+			buttonText = "pastel_status_buttom"
 			font = "VCR02_26"
 			position = {
 				x = 355
@@ -456,6 +456,7 @@ guiTypes = {
 			}
 			font = "VCR02_26"
 			text = popy_c_army_text
+			pdx_tooltip = command_army_desc
 		}
 	}
 
@@ -547,6 +548,7 @@ guiTypes = {
 			}
 			font = "VCR02_26"
 			text = rose_c_army_text
+			pdx_tooltip = command_army_desc
 		}
 	}
 

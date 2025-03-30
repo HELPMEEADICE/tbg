@@ -38,6 +38,73 @@ scripted_gui = {
 			close_buttom_click = {
 				clr_country_flag = open_frontier_main_window
 			}
+
+			up_right_buttom_click = {
+				ROOT = {
+					add_to_variable = {
+						var = debt_var
+						value = 90
+					}
+					add_to_variable = {
+						var = debt_billion_var
+						value = 90
+					}
+					add_to_variable = {
+						var = debt_trillion_var
+						value = 0.09
+					}
+				}
+				add_to_variable = {
+					var = popy_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = rose_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = halo_flops
+					value = small_random
+				}
+				add_to_variable = {
+					var = pastel_flops
+					value = small_random
+				}
+			}
+			up_left_buttom_click = {
+				ROOT = {
+					add_to_variable = {
+						var = debt_var
+						value = 60
+					}
+					add_to_variable = {
+						var = debt_billion_var
+						value = 60
+					}
+					add_to_variable = {
+						var = debt_trillion_var
+						value = 0.06
+					}
+				}
+				add_to_variable = {
+					var = popy_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = rose_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = halo_flops
+					value = large_random
+				}
+				add_to_variable = {
+					var = pastel_flops
+					value = large_random
+				}
+			}
+			
+
 			popy_buttom_available_click = {
 				#clr_country_flag = open_frontier_main_window
 				if = {
@@ -107,6 +174,9 @@ scripted_gui = {
 				if = {
 					limit = {
 						NOT = { has_country_flag = popy_command_army}
+						check_variable = {
+							popy_flops > 1000
+						}
 					}
 					set_country_flag = popy_command_army
 					create_corps_commander = {
@@ -142,6 +212,9 @@ scripted_gui = {
 				if = {
 					limit = {
 						NOT = { has_country_flag = rose_command_army}
+						check_variable = {
+							rose_flops > 1000
+						}
 					}
 					set_country_flag = rose_command_army
 					create_field_marshal = {
